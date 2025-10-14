@@ -1,0 +1,41 @@
+# 파이썬 캐시 파일
+__pycache__/
+*.pyc
+
+# 주피터 노트북 체크포인트
+.ipynb_checkpoints/
+
+# 가상환경 폴더
+venv/
+.env/
+
+# IDE 및 에디터 설정 파일
+.vscode/
+.idea/
+.DS_Store
+
+# 데이터 폴더
+data/
+
+# 모델 파일
+*.cbm
+*.joblib
+*.json
+*.pkl
+*.h5
+*.pt
+*.pth
+*.onnx
+*.pb
+
+# 모델 저장 디렉토리
+cat/catboost_fixed_seedEnsemble2/
+hist/hgb_fixed_seedEnsemble/
+xgb/xgb_fixed_seedEnsemble/
+
+# 제출 파일 (선택적)
+*.csv
+!sample_submission.csv
+
+# Parquet 파일
+*.parquet
